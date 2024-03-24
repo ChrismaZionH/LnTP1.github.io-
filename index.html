@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign-in Form</title>
+    <style>
+      /* Set margin and padding to zero and add some border to the form */
+      form {
+        margin: 0;
+        padding: 0;
+        border: 1px solid #ccc;
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      }
+
+      /* Style the form label and input fields */
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+      }
+
+      /* Style the submit button */
+      input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+      }
+
+      /* Add some hover effect on the submit button */
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+
+      <input type="submit" value="Sign In">
+    </form>
+  </body>
+</html>
